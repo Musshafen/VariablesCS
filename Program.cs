@@ -20,6 +20,11 @@ namespace VariablesCS
 
             Console.WriteLine($"It is a pleasure to meet you, {userName}!");
 
+            if (userName == "Alice")
+            {
+                Console.WriteLine("We're ALL mad here!");
+            }
+
             Console.Write("What is your favorite number? ");
             var firstNumberAsString = Console.ReadLine();
             Console.Write("Perfect! What is your second favorite number? ");
@@ -43,7 +48,7 @@ namespace VariablesCS
 
             Console.WriteLine($"{firstNumberAsString}÷{secondNumberAsString}={quotient}");
 
-            Console.WriteLine($"The remainder of {quotient} is {remainder}");
+            Console.WriteLine($"The remainder of {remainder} is {quotient}");
 
         }
     }
